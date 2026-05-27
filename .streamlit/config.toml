@@ -3,10 +3,10 @@
 primaryColor = "rgb(76, 103, 135)"
 
 # The main background color of the web page
-backgroundColor = "#214522"
+backgroundColor = "#1a391b"
 
 # The background color for cards, sidebars, and input fields
-secondaryBackgroundColor = "rgb(76, 103, 135)"
+secondaryBackgroundColor = "rgb(208, 208, 208)"
 
 # The color of the main text on the website
 textColor = "#f5f6f8"
