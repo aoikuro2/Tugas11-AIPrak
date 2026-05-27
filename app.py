@@ -87,7 +87,6 @@ if uploadedFile is not None:
             st.caption(f"RGB: {color[0]}, {color[1]}, {color[2]}")
 
 else:
-    # Custom designed info box replacing the standard st.info
     st.markdown(
         """
         <div style="
