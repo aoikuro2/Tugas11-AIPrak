@@ -6,7 +6,7 @@ primaryColor = "rgb(76, 103, 135)"
 backgroundColor = "#1a391b"
 
 # The background color for cards, sidebars, and input fields
-secondaryBackgroundColor = "rgb(208, 208, 208)"
+secondaryBackgroundColor = "rgb(27, 29, 59)"
 
 # The color of the main text on the website
 textColor = "#f5f6f8"
