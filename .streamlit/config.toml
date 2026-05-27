@@ -1,6 +1,6 @@
 [theme]
 # The accent color for widgets, borders, and active states (e.g., upload buttons)
-primaryColor = "rgb(76, 103, 135)"
+primaryColor = "rgb(255, 255, 255)"
 
 # The main background color of the web page
 backgroundColor = "#1a391b"
