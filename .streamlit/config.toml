@@ -1,0 +1,15 @@
+[theme]
+# The accent color for widgets, borders, and active states (e.g., upload buttons)
+primaryColor = "rgb(76, 103, 135)"
+
+# The main background color of the web page
+backgroundColor = "#214522"
+
+# The background color for cards, sidebars, and input fields
+secondaryBackgroundColor = "rgb(76, 103, 135)"
+
+# The color of the main text on the website
+textColor = "#f5f6f8"
+
+# The global font style ("sans serif", "serif", or "monospace")
+font = "sans serif"
