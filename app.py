@@ -50,7 +50,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# 2. Your actual widget with the matching key
 uploadedFile = st.file_uploader("Upload file gambar (PNG, JPG, JPEG)", key="my_uploader")
 
 if uploadedFile is not None:
@@ -91,11 +90,11 @@ else:
     st.markdown(
         """
         <div style="
-            background-color: #6c8c6e; 
-            color: ##102110; 
+            background-color: #102110; 
+            color: #f5f6f8; 
             padding: 16px; 
             border-radius: 8px; 
-            border-left: 5px solid #f5f6f8;
+            border-left: 5px solid #6c8c6e;
             font-size: 16px;
             margin-top: 10px;
         ">
