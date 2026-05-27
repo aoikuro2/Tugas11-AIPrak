@@ -33,7 +33,25 @@ st.write("Unggah gambar dan temukan 5 warna paling dominan")
 
 st.write("---")
 
-uploadedFile = st.file_uploader("Upload file gambar (PNG, JPG, JPEG)", type=["png", "jpg", "jpeg"])
+st.markdown("""
+<style>
+    /* Targets the inner dropzone background and border */
+    .st-key-my_uploader [data-testid="stFileUploaderDropzone"] {
+        background-color: #112211 !important; /* Dark green background */
+        border: 2px dashed #2E7D32 !important;  /* Muted green dashed border */
+    }
+    
+    /* Targets the actual 'Browse files' / 'Upload' button */
+    .st-key-my_uploader button {
+        background-color: #2E7D32 !important; /* Solid green button */
+        color: #FFFFFF !important;            /* White text */
+        border-radius: 8px !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# 2. Your actual widget with the matching key
+uploadedFile = st.file_uploader("Upload file gambar (PNG, JPG, JPEG)", key="my_uploader")
 
 if uploadedFile is not None:
     image = Image.open(uploadedFile)
