@@ -6,6 +6,18 @@ from sklearn.cluster import KMeans
 st.set_page_config(
     layout="centered"
 )
+st.markdown(
+    """
+    <style>
+        /* Target the main body and Streamlit app container */
+        html, body, [data-testid="stAppViewContainer"], .main {
+            overflow: hidden;
+            height: 100vh;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 def rgb_to_hex(rgb):
     return '#{:02x}{:02x}{:02x}'.format(rgb[0], rgb[1], rgb[2])
