@@ -6,25 +6,7 @@ from sklearn.cluster import KMeans
 st.set_page_config(
     layout="centered"
 )
-st.markdown(
-    """
-    <style>
-        /* Force block scrolling on absolutely everything */
-        html, body, [data-testid="stAppViewContainer"], [data-testid="stMainViewContainer"], .main, .block-container {
-            overflow: hidden !important;
-            height: 100vh !important;
-            max-height: 100vh !important;
-        }
 
-        /* Optional: Removes the extra default padding at the top of Streamlit apps */
-        .block-container {
-            padding-top: 2rem !important;
-            padding-bottom: 0rem !important;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 def rgb_to_hex(rgb):
     return '#{:02x}{:02x}{:02x}'.format(rgb[0], rgb[1], rgb[2])
