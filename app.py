@@ -92,10 +92,10 @@ else:
         """
         <div style="
             background-color: #0F2D2D; 
-            color: #49A6E9; 
+            color: ##102110; 
             padding: 16px; 
             border-radius: 8px; 
-            border-left: 5px solid #00BCD4;
+            border-left: 5px solid ##6c8c6e;
             font-size: 16px;
             margin-top: 10px;
         ">
