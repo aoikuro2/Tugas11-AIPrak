@@ -91,11 +91,11 @@ else:
     st.markdown(
         """
         <div style="
-            background-color: #f5f6f8; 
+            background-color: #6c8c6e; 
             color: ##102110; 
             padding: 16px; 
             border-radius: 8px; 
-            border-left: 5px solid ##6c8c6e;
+            border-left: 5px solid #f5f6f8;
             font-size: 16px;
             margin-top: 10px;
         ">
