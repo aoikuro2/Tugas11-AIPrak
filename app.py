@@ -91,7 +91,7 @@ else:
     st.markdown(
         """
         <div style="
-            background-color: #0F2D2D; 
+            background-color: #f5f6f8; 
             color: ##102110; 
             padding: 16px; 
             border-radius: 8px; 
