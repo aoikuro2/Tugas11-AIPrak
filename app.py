@@ -87,4 +87,20 @@ if uploadedFile is not None:
             st.caption(f"RGB: {color[0]}, {color[1]}, {color[2]}")
 
 else:
-    st.info("Silakan unggah gambar terlebih dahulu pada tombol di atas untuk melihat palet warna.")
+    # Custom designed info box replacing the standard st.info
+    st.markdown(
+        """
+        <div style="
+            background-color: #0F2D2D; 
+            color: #49A6E9; 
+            padding: 16px; 
+            border-radius: 8px; 
+            border-left: 5px solid #00BCD4;
+            font-size: 16px;
+            margin-top: 10px;
+        ">
+            Silakan unggah gambar terlebih dahulu pada tombol di atas untuk melihat palet warna.
+        </div>
+        """, 
+        unsafe_allow_html=True
+)
